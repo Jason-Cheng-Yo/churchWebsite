@@ -3,6 +3,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="Model.Banner" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@page isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
@@ -222,97 +223,19 @@ List<Banner> banner=(List<Banner>)session.getAttribute("banner");
                               <th width="17%">下架日期</th>
                               <th width="16%">管理模式</th>
                             </tr>
+                            
                             <c:forEach items="${banner}" var="bannerList" varStatus="st">
-                            <tr>
-                              <td>1</td>
-                              <td>${banner.name}</td>
-							  <td>上架</td>
-                              <td><c:out value="${bannerList}"/></td>
-                              <td><c:out value="${banner.end_time}"/></td>
-                              <td><a href="banner_2.jsp">編輯</a> I 刪除</td>
-                              </tr>
-                            </c:forEach>
-                            <tr class="altrow">
-                              <td>2</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td><a href="banner_2.jsp">編輯</a> I 刪除</td>
-                              </tr>
-                            <tr class="altrow">
-                              <td>3</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td><a href="banner_2.jsp">編輯</a> I 刪除</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>4</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>5</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>6</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>7</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>8</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>9</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>10</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
+	                          <tr class="altrow">
+	                            <td><div align="center">${(paging.page - 1) * paging.pageItems + 1 + st.index}</div></td>
+	                            <td align="center" style="word-break:break-all">${bannerList.name}</td>
+	                            <td align="center"><c:if test="${bannerList.recommend eq 0}">否</c:if><c:if test="${bannerList.recommend eq 1}">是</c:if></td>
+	                            <td align="center"><c:if test="${bannerList.active eq 0}">未上架</c:if><c:if test="${bannerList.active eq 1}">上架</c:if></td>
+	                            <td align="center"><fmt:formatDate value="${bannerList.start_time}" pattern="yyyy-MM-dd" /></td>
+	                            <td align="center"><fmt:formatDate value="${bannerList.end_time}" pattern="yyyy-MM-dd" /></td>
+	                            <td align="center"><a href="banner_2.jsp">編輯</a> | <a href="#" onclick="del('${bannerList.id}'); return false;">刪除</a></td>
+	                          </tr>
+                          </c:forEach>
+                            
                       </tbody></table> 
                                                </td></tr>
                   </tbody></table></td>

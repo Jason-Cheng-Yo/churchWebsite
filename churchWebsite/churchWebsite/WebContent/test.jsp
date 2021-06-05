@@ -223,97 +223,16 @@ List<Banner> banner=(List<Banner>)request.getAttribute("banner");
                               <th width="16%">管理模式</th>
                             </tr>
                             <c:forEach items="${banner}" var="bannerList" varStatus="st">
-							  	<tr>
-							        <td><c:out value="${bannerList.name}"/></td>
-							        <td>1</td>
-		                            <td>${banner.name}</td>
-									<td>上架</td>
-		                            <td><c:out value="${bannerList}"/></td>
-		                            <td><c:out value="${banner.end_time}"/></td>
-		                            <td><a href="banner_2.jsp">編輯</a> I 刪除</td>
+							  	<tr class="altrow">
+							        <td align="center">${st.index + 1}</td>
+							        <td align="center">${bannerList.name}</td>
+		                            <td align="center">${bannerList.recommend}</td>
+	                            	<td align="center">${bannerList.active}</td>
+		                            <td align="center">${bannerList.start_time}</td>
+		                            <td align="center">${bannerList.end_time}</td>
+		                            <td align="center"><a href="banner_2.jsp">編輯</a> I 刪除</td>
 		                        </tr>
 							</c:forEach>
-                            <tr class="altrow">
-                              <td>2</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td><a href="banner_2.jsp">編輯</a> I 刪除</td>
-                              </tr>
-                            <tr class="altrow">
-                              <td>3</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td><a href="banner_2.jsp">編輯</a> I 刪除</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>4</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>5</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>6</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>7</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>8</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>9</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
-                            <tr class="altrow">
-                              <td>10</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                              <td>&nbsp;</td>
-                            </tr>
                       </tbody></table> 
                                                </td></tr>
                   </tbody></table></td>
