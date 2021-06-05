@@ -27,15 +27,15 @@ public class bannerController extends HttpServlet {
 		try {
 			List<Banner> bannerList = new bannerDao().queryAll();
 			HttpSession session = request.getSession();
-			session.setAttribute("banner", bannerList);
-			response.sendRedirect("test.jsp");
+			session.setAttribute("bannerList", bannerList);
+			response.sendRedirect("banner.jsp");
 			// request.setAttribute("banner", bannerList);
 			// RequestDispatcher dispatcher = request.getRequestDispatcher("banner.jsp");
 			// dispatcher.forward(request, response);
 		} catch (Exception e) {
 			response.getWriter().print(
 					"<script language='javascript' type='text/javascript' src='ntkoocx.js'>alert('查無資料')</script>");
-			response.setHeader("refresh", "1;URL=test.jsp");
+			response.setHeader("refresh", "1;URL=banner.jsp");
 		}
 
 	}

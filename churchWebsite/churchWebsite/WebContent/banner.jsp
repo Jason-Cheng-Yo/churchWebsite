@@ -14,7 +14,7 @@
 <style type="text/css"></style>
 </head>
 <%
-List<Banner> banner=(List<Banner>)session.getAttribute("banner");
+List<Banner> banner=(List<Banner>)session.getAttribute("bannerList");
 %>
 <body onload="MM_preloadImages('admin1/images/01_addid_f2.gif','admin1/images/01_delete_f2.gif')">
 <div align="center">
@@ -224,15 +224,15 @@ List<Banner> banner=(List<Banner>)session.getAttribute("banner");
                               <th width="16%">管理模式</th>
                             </tr>
                             
-                            <c:forEach items="${banner}" var="bannerList" varStatus="st">
+                            <c:forEach items="${bannerList}" var="banner" varStatus="st">
 	                          <tr class="altrow">
 	                            <td><div align="center">${(paging.page - 1) * paging.pageItems + 1 + st.index}</div></td>
-	                            <td align="center" style="word-break:break-all">${bannerList.name}</td>
-	                            <td align="center"><c:if test="${bannerList.recommend eq 0}">否</c:if><c:if test="${bannerList.recommend eq 1}">是</c:if></td>
-	                            <td align="center"><c:if test="${bannerList.active eq 0}">未上架</c:if><c:if test="${bannerList.active eq 1}">上架</c:if></td>
-	                            <td align="center"><fmt:formatDate value="${bannerList.start_time}" pattern="yyyy-MM-dd" /></td>
-	                            <td align="center"><fmt:formatDate value="${bannerList.end_time}" pattern="yyyy-MM-dd" /></td>
-	                            <td align="center"><a href="banner_2.jsp">編輯</a> | <a href="#" onclick="del('${bannerList.id}'); return false;">刪除</a></td>
+	                            <td align="center" style="word-break:break-all">${banner.name}</td>
+	                            <td align="center"><c:if test="${banner.recommend eq 0}">否</c:if><c:if test="${banner.recommend eq 1}">是</c:if></td>
+	                            <td align="center"><c:if test="${banner.active eq 0}">未上架</c:if><c:if test="${banner.active eq 1}">上架</c:if></td>
+	                            <td align="center"><fmt:formatDate value="${banner.start_time}" pattern="yyyy-MM-dd" /></td>
+	                            <td align="center"><fmt:formatDate value="${banner.end_time}" pattern="yyyy-MM-dd" /></td>
+	                            <td align="center"><a href="banner_2.jsp">編輯</a> | <a href="#" onclick="del('${banner.id}'); return false;">刪除</a></td>
 	                          </tr>
                           </c:forEach>
                             

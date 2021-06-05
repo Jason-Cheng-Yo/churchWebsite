@@ -13,7 +13,7 @@
 <style type="text/css"></style>
 </head>
 <%
-List<Banner> banner=(List<Banner>)request.getAttribute("banner");
+List<Banner> banner=(List<Banner>)request.getAttribute("bannerList");
 %>
 <body onload="MM_preloadImages('admin1/images/01_addid_f2.gif','admin1/images/01_delete_f2.gif')">
 <div align="center">
@@ -222,14 +222,14 @@ List<Banner> banner=(List<Banner>)request.getAttribute("banner");
                               <th width="17%">下架日期</th>
                               <th width="16%">管理模式</th>
                             </tr>
-                            <c:forEach items="${banner}" var="bannerList" varStatus="st">
+                            <c:forEach items="${bannerList}" var="banner" varStatus="st">
 							  	<tr class="altrow">
 							        <td align="center">${st.index + 1}</td>
-							        <td align="center">${bannerList.name}</td>
-		                            <td align="center">${bannerList.recommend}</td>
-	                            	<td align="center">${bannerList.active}</td>
-		                            <td align="center">${bannerList.start_time}</td>
-		                            <td align="center">${bannerList.end_time}</td>
+							        <td align="center">${banner.name}</td>
+		                            <td align="center">${banner.recommend}</td>
+	                            	<td align="center">${banner.active}</td>
+		                            <td align="center">${banner.start_time}</td>
+		                            <td align="center">${banner.end_time}</td>
 		                            <td align="center"><a href="banner_2.jsp">編輯</a> I 刪除</td>
 		                        </tr>
 							</c:forEach>
