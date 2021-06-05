@@ -1,0 +1,221 @@
+html, body, p, table { 
+	color: #686D73;
+    margin:0;
+	padding:0;
+	font: 400 13px/22px Verdana, Arial, "新細明體";
+}
+a { 
+	color: #686D73;
+	text-decoration: none;
+}
+a:hover { 
+	text-decoration: underline;
+}
+
+p { 
+    margin: 10px 0;
+	padding: 0;
+	text-align: left;
+}
+input{ 
+	font: 400 12px/18px Verdana, Arial, "新細明體";
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+/*page*/
+.pagenum {
+	text-align: center;
+	font: 400 12px/25px Verdana, "新細明體";
+	color: #686D73;
+	margin: 15px 0;
+}
+.pagenum a {
+	color: #686D73;
+	text-decoration: none;
+}
+.pagenum a:hover {
+	color: #686D73;
+	text-decoration: underline;
+}
+.pagenum span.select {
+	color: #FC6B00;
+	font-weight: 700;
+}
+.tRight {
+    text-align: right;
+}
+.fRight {
+    float: right;
+}
+
+/**/
+.title {
+	color: #468CD5;
+	font: 600 15px/22px Verdana, Arial, "新細明體";
+	border-bottom: solid 1px #EFEFEF;
+	padding: 2px 5px;
+	margin-top: 0;
+}
+.disc_table {
+	margin: 0px auto;
+	border: solid 1px #EFEFEF;
+	background-color: #fff;
+}
+.disc_table th {
+	font-weight: 400;
+	background-color: #48A6DD;
+	color: #fff;
+	padding: 2px 5px;
+}
+.disc_table td {
+	text-align: center;
+	padding: 2px 5px;
+}
+.disc_table tr.altrow td {
+	background-color: #eee;
+}
+td.tLeft {
+    text-align: left;
+}
+.line {
+    border-top: dotted 1px #1d7da2;
+	height: 0px;
+	margin: 15px 0;
+	clear: both;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+
+
+/*文字*/
+.gray12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	color: #666666;
+	text-decoration: none;
+}
+.gray12 a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666666;
+	text-decoration: none;
+}
+.gray12 a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666666;
+	text-decoration: none;
+}
+.green12B {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #336600;
+}
+
+.red12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #990000;
+	text-decoration: none;
+}
+
+.blue12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #0066ff;
+	text-decoration: none;
+}
+.gray11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #CCCCCC;
+}
+
+.gray12 a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666666;
+	text-decoration: underline;
+}
+.white13 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.black12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+.white12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.white12 a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.white12 a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.white12 a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.black12 a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+.black12 a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+.black12 a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #990000;
+	text-decoration: underline;
+}
+.red13 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #CC0000;
+	text-decoration: none;
+}

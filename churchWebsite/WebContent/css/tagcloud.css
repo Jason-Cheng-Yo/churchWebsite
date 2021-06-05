@@ -1,0 +1,218 @@
+/* CSS Document */
+/*400*/
+.style01 { 
+ font-size: 13px; 
+ font-weight:400;
+ color: #f32837;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+}     
+.style01 a:link, .style01 a:visited, .style01 a:active {
+ color: #f32837;
+ text-decoration: none;
+}
+.style01 a:hover  {
+ color: #f32837; 
+ text-decoration: underline;
+}
+.style02 { 
+ font-size: 13px; 
+ font-weight:400;
+ color: #feb300;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+
+} 
+.style02 a:link, .style02 a:visited, .style02 a:active {
+ color: #feb300;
+ text-decoration: none; 
+}
+.style02 a:hover  {
+ color: #feb300;
+ text-decoration: underline;
+}    
+.style03 { 
+ font-size: 13px; 
+ font-weight:400; 
+ color: #4814a0;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+}   
+.style03 a:link, .style03 a:visited, .style03 a:active { 
+ color: #4814a0;
+ text-decoration: none;
+}
+.style03 a:hover  {
+ color: #4814a0;
+ text-decoration: underline;
+}  
+.style04 { 
+ font-size: 13px; 
+ font-weight:400;
+ color: #0085cf;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}   
+.style04 a:link, .style04 a:visited, .style04 a:active {
+ color: #0085cf;
+ text-decoration: none;
+}
+.style04 a:hover  {
+ color: #0085cf;
+ text-decoration: underline;
+}   
+.style05 { 
+ font-size: 13px; 
+ font-weight:400;
+ color:#d80073;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+} 
+.style05 a:link, .style05 a:visited, .style05 a:active {
+ color:#d80073;
+ text-decoration: none;
+}
+.style05 a:hover  {
+ color: #d80073;
+ text-decoration: underline; 
+}
+.style06 { 
+ font-size: 13px; 
+ font-weight:400;
+ color:#1d1d1d;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+} 
+.style06 a:link, .style06 a:visited, .style06 a:active {
+ color:#1d1d1d;
+ text-decoration: none;
+}
+.style06 a:hover  {
+ color: #1d1d1d;
+ text-decoration: underline; 
+}
+.style07 { 
+ font-size: 13px; 
+ font-weight:400;
+ color:#00af4d;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+} 
+.style07 a:link, .style07 a:visited, .style07 a:active {
+ color:#00af4d;
+ text-decoration: none;
+}
+.style07 a:hover  {
+ color: #00af4d;
+ text-decoration: underline; 
+}
+.style08 { 
+ font-size: 13px; 
+ font-weight:400;
+ color:#001ca8;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+} 
+.style08 a:link, .style08 a:visited, .style08 a:active {
+ color:#001ca8;
+ text-decoration: none;
+}
+.style08 a:hover  {
+ color: #001ca8;
+ text-decoration: underline; 
+}
+.style09 { 
+ font-size: 13px; 
+ font-weight:400;
+ color:#00665b;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+} 
+.style09 a:link, .style09 a:visited, .style09 a:active {
+ color:#00665b;
+ text-decoration: none;
+}
+.style09 a:hover  {
+ color: #00665b;
+ text-decoration: underline; 
+}
+.style10 { 
+ font-size: 13px; 
+ font-weight:400;
+ color:#727171;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+} 
+.style10 a:link, .style10 a:visited, .style10 a:active {
+ color:#727171;
+ text-decoration: none;
+}
+.style10 a:hover  {
+ color: #727171;
+ text-decoration: underline; 
+}                                    
+/*700*/
+/*.style01b { 
+ font-size: 13px; 
+ font-weight:700;
+ color: #FF0000;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+}     
+.style01b a:link, .style01b a:visited, .style01b a:active {
+ color: #FF0000;
+ text-decoration: none;
+}
+.style01b a:hover  {
+ color: #FF0000; 
+ text-decoration: underline;
+}
+.style02b { 
+ font-size: 13px; 
+ font-weight:700;
+ color: #009900;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+
+} 
+.style02b a:link, .style02b a:visited, .style02b a:active {
+ color: #009900;
+ text-decoration: none; 
+}
+.style02b a:hover  {
+ color: #009900;
+ text-decoration: underline;
+}    
+.style03b { 
+ font-size: 13px; 
+ font-weight:700; 
+ color: #FF6600;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+}   
+.style03b a:link, .style03b a:visited, .style03b a:active { 
+ color: #FF6600;
+ text-decoration: none;
+}
+.style03b a:hover  {
+ color: #FF6600;
+ text-decoration: underline;
+}  
+.style04b { 
+ font-size: 13px; 
+ font-weight:700;
+ color: #3366CC;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}   
+.style04b a:link, .style04b a:visited, .style04b a:active {
+ color: #3366CC;
+ text-decoration: none;
+}
+.style04b a:hover  {
+ color: #3366CC;
+ text-decoration: underline;
+}   
+.style05b { 
+ font-size: 13px; 
+ font-weight:700;
+ color:#993399;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+} 
+.style05b a:link, .style05b a:visited, .style05b a:active {
+ color:#993399;
+ text-decoration: none;
+}
+.style05b a:hover  {
+ color: #993399;
+ text-decoration: underline; 
+}    
+*/
