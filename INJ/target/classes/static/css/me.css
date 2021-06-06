@@ -1,0 +1,153 @@
+@charset "utf-8";
+.but_spad{
+background: url(../images/Index_butt_sdgf.jpg) 0px no-repeat;
+width:984px;
+height:47px;
+margin:auto;
+}
+.na_big{
+padding:0px 0 0 0;
+}
+
+
+.navigation {
+	margin:0 0 0 25px; 
+	padding:0;
+	width:900px;
+	list-style-type:none; 
+	font:12px Arial;
+	position: absolute;
+	z-index: 99999;
+	}
+ 
+.navigation li {
+	float:left; 
+    padding: 8px 0; 
+	margin:0 0 0 0; 
+	_margin:0; 
+	width:145px;
+	background: url(../images/Index_ba6.jpg) right 0px no-repeat;
+	}
+.navigation li.last {
+	background: none;
+	}
+ 
+/* 設置選單區塊*/
+.navigation li dl { 
+	width:145px;/*ie6*/
+    margin:0;
+	padding:0;
+	height:30px;
+	
+	}
+
+.navigation li dt a { 
+	display:block;
+	width:145px;	
+	height:35px;
+}
+.navigation li dd a{
+float:left;
+display:block;
+	width:130px;
+}
+ 
+ 
+/* 設置主選單dt */
+.me1 a{
+background: url(../images/Index_bt1.jpg) 0px no-repeat;
+}
+.me1 a:hover {
+background: url(../images/Index_ba1.jpg) 0px no-repeat;
+}
+.me2 a{
+background:url(../images/Index_bt2.jpg) 0px no-repeat;
+}
+.me2 a:hover {
+background:url(../images/Index_ba2.jpg) 0px no-repeat;
+}
+
+.me3 a{
+background:url(../images/Index_bt3.jpg) 0px no-repeat;
+}
+.me3 a:hover {
+background:url(../images/Index_ba3.jpg) 0px no-repeat;
+}
+.me4 a{
+background:url(../images/Index_bt4.jpg) 0px no-repeat;
+}
+.me4 a:hover {
+background:url(../images/Index_ba4.jpg) 0px no-repeat;
+}
+.me5 a{
+background:url(../images/Index_bt5.jpg) 0px no-repeat;
+}
+.me5 a:hover {
+background:url(../images/Index_ba5.jpg) 0px no-repeat;
+}
+
+.navigation li dt {
+	margin:0;
+	width:145px;	
+	height:32px;
+	overflow:hidden;
+	
+	}
+ 
+.navigation li dt a ,.navigation  li dt a:visited {
+	display:block; 
+    text-decoration:none;
+	}
+ 
+/* 設置子選單dd */
+.navigation li dd { 
+	margin:0 0 0 10px; 
+    padding:0; 
+	color: #333; 
+	background-color:#DCEBF3;
+	border-bottom:dotted 1px #666;
+	width:90px;
+	overflow:hidden;
+	
+	}
+ 
+.navigation li dd.last {
+	border-bottom:0;
+	
+	}	
+ 
+.navigation li dd a, .navigation  li dd a:visited {
+
+	display:block; 
+	color:#333; 
+    text-decoration:none; 
+	padding:4px 5px 4px 20px;
+	
+    }
+.navigation li dd a:hover {
+	display:block; 
+	color:#ffffff;
+	background-color:#999999;
+	    text-decoration:none; 
+		
+	
+	
+    }
+ 
+ 
+/*隱藏子選單*/
+.navigation li dd { display:none;}
+ 
+ 
+/* 滑鼠滑入顯示子選單 */
+.navigation li:hover dd, .navigation li a:hover dd { 
+display:block;
+
+}
+ 
+/*ie6 hack*/
+.navigation li:hover,.navigation li a:hover { border:0;}
+.navigation table { border-collapse:collapse; 
+    padding:0; 		
+	text-align:left;
+	}

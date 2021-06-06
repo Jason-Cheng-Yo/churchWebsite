@@ -1,0 +1,133 @@
+@charset "utf-8";
+body {
+	color:#7a7770;
+	behavior: url(../script/csshover.htc);
+	font: 400 12px/140% Arial, "新細明體";
+}
+a {color:#7a7770;text-decoration: none;}
+a:hover{color:#0066CC;}
+body,p,h1 {margin:0;padding:0;}
+ul li {	list-style-type: none;}
+.news_cler{clear:both;}
+.cler{clear:both;}
+
+.lin{height:8px;background-color:#666666;}
+.big{width: 998px;margin: 0 auto;}
+.logo{width:330px;float:left;}
+/*banner*/
+.banner{
+	text-align:center;
+	margin: 0;
+	padding: 11px 0px;
+	border: 1px solid #CCCCCC;
+}
+.all_tit_high{padding:8px 0 3px 0;}
+/*footer*/
+.foo_bg{
+background: url(../images/Index_footer_bg.jpg) 0px 0 repeat-x;
+height:63px;
+}
+.foo_txt{
+width:700px;
+margin:auto;
+font-size:12px;
+color:#FFFFFF;
+text-align:center;
+padding:8px 0; 
+}
+.foo_txt a{
+font-size:12px;
+color:#FFFFFF;
+text-decoration:none;
+}
+.foo_txt a:hover{
+font-size:12px;
+color:#000;
+text-decoration:none;
+}
+
+
+/**/
+.volunteer_titt {
+	
+	font-size: 13px;
+	color: #666666;
+	padding:3px 0 3px 3px;
+}
+.volunteer_a {
+	font-size: 15px;
+	font-weight: bold;
+	color: #336699;
+}
+.volunteer_b{
+	font-size: 13px;
+	font-weight: bold;
+	color: #336699;
+}
+.volunteer_c{
+	font-size: 13px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.volunteer_text{
+width:750px;
+margin:auto;
+padding:8px 0;
+}
+.volunteer_text2{
+	color:#666666;
+	font-size: 15px;
+	line-height: 21px;
+	text-decoration: none;
+	margin:auto;
+	width:750px;
+	font-weight: bold;
+}
+.volunteer_text3{
+	color:#006699;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 17px;
+		font-weight: bold;
+}
+.volunteer_text3_a{
+	color:#990000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+.volunteer_text4{
+	color:#006699;	
+	font-size: 13px;
+		font-weight: bold;
+		padding:3px 0;
+}
+.volunteer_text2 ul{
+margin: 0;
+padding:5px 0 ;
+
+}
+.volunteer_text2 li{
+
+padding:2px 6px;
+margin:0 4px;
+float:left;
+
+}
+.volunteer_text2 li.volunteer_text2_li2{
+	color:#990000;
+	font-size: 15px;
+	line-height: 21px;
+	font-weight: bold;
+}
+.volunteer_text2_li3 img{
+margin:30px 0 0 0 ;
+
+}
+.volunteer_text2_but{
+padding:5px 0;
+text-align:center;}
+
+/**/
+.donation_play{width: auto;}
+.donation_play_bg{background:url(../images/donation_bgMid.jpg) 0px 0 repeat-y;}
+.donation_play .volunteer_text, .donation_play .volunteer_text2, .donation_play .volunteer_text3, .donation_play .volunteer_text4  { width: 935px;}
